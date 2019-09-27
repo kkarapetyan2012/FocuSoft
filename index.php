@@ -1452,64 +1452,6 @@ $('.sidebar li span').on('click', function () {
     $(this).parent('li').children('.sub-menu').toggle('slow');
 })
 
-// $('.sidebar li span').each(function() {
-    
-//             $(this).removeClass('offset');
-//         })
-
-//         $('.sidebar li span').addClass('offset');
-
-// if($(this).hasClass(!'clicked')){
-//     alert(2)
-            
-//             $(this).removeClass('clicked');
-//             $(this).children('.sub-menu').slideUp('slow');
-            
-
-//         } else {
-
-//             alert(3)
-
-//             $($('.sidebar li span')).each(function() {
-//                 $('.sidebar li span').removeClass('clicked');
-//                 $('.sub-menu').slideUp('slow');
-//             })
-
-//             $(this).addClass('clicked');
-//             $(this).children('.sub-menu').slideDown('slow');
-
-//         }
-//     })
-
-// $('.sidebar li span').click( function () {
-
-// // $('.sidebar li span').each(function() {
-// //     $(this).removeClass('offset');
-// // })
-
-// // $(this).addClass('offset');
-
-
-//     if($(this).hasClass('clicked')){
-        
-//         $(this).removeClass('clicked');
-//         $(this).children('.sub-menu').hide('slow');
-        
-
-//     } else {
-
-//         $($('.sidebar li span')).each(function() {
-//             $('.sidebar li span').removeClass('clicked');
-//             $('.sub-menu').show('slow');
-//         })
-
-//         // $(this).addClass('clicked');
-//         // $(this).children('.sub-menu').show('slow');
-
-//     }
-
-// })
-
 </script>
 </body>
 </html>
